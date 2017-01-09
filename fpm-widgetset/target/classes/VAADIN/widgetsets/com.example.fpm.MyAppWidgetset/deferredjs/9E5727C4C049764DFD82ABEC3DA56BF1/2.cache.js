@@ -1,0 +1,1 @@
+$wnd.com_example_fpm_MyAppWidgetset.runAsyncCallback2('$0b(1735,1,cjh);_.Cgb=function z8d(){this.Dgb(this.b)};_.Dgb=function A8d(a){this.Egb(a)};_.Egb=function B8d(a){};_.tg=function D8d(){this.Cgb();$2g.ZGd().K7(this.a.Cd())};O1g(Gt)(2);\n//# sourceURL=com.example.fpm.MyAppWidgetset-2.js\n')

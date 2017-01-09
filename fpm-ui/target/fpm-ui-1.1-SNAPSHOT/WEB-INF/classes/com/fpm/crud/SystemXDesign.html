@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="package-mapping" content="x:com.fpm.crud" />
+</head>
+<body>
+<v-css-layout id="systemX-form" style-name="systemX-form-wrapper">
+    <v-vertical-layout height-full spacing style-name="form-layout">
+        <v-text-field caption="SystemX name" _id="systemXName" width-full />
+        <v-horizontal-layout width-full spacing>
+            <v-text-field caption="p1" _id="p1" width-full />
+            <v-text-field caption="p2" _id="p2" width-full />
+            <v-text-field caption="p3" _id="p3" width-full />
+        </v-horizontal-layout>
+        <v-combo-box caption="Ata" _id="ata" width-full null-selection-allowed=false text-input-allowed=false />
+        <x-category-field _id="category" caption="Categories" width-full />
+        <v-css-layout :expand style-name="expander" />
+        <v-button style-name="primary" _id="save">Save</v-button>
+        <v-button style-name="cancel" _id="cancel" click-shortcut="escape">Cancel</v-button>
+        <v-button style-name="danger" _id="delete">Delete</v-button>
+    </v-vertical-layout>
+</v-css-layout>
+</body>
+</html>
